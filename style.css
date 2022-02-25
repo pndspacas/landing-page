@@ -1,0 +1,100 @@
+body{
+    
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    padding-left: 50px;
+}
+.container-header{
+    background-color: #1F2937;
+    height: 50px;
+    padding: 10px;
+    font-size: 18px;
+    color:#E5E7EB;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    gap:10px;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: white;
+    padding-right: 50px;
+}
+
+.container-body{
+    height: 300px;
+    display: flex;
+    background-color: #1F2937;
+}
+
+.titulo-body{
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+.texto-body{
+    color:white;
+    border: 2px solid red;
+    text-align: left;
+}
+
+
+.container-cars{
+    border: 2px solid red;
+    background-color: white;
+    color:black;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    gap:20px
+
+}
+
+.titulo-box{
+    color:black;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 15px;
+}
+
+.box-1, .box-2, .box-3, .box-4{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+.container-quote{
+    background-color: #E5E7EB;
+    height: 100px;
+    display: flex;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-quote{
+    font-size: 36px;
+    color:#1F2937;
+    font-style: italic;
+}
+
+.footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color:white;
+    height: 50px;
+    font-size: 18px;
+    color:#E5E7EB;
+}
